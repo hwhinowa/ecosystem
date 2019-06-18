@@ -12,7 +12,7 @@
     "react-scripts": "2.1.1",
     "redux": "^4.0.1"
   },
-  "homepage": "https://hwhinowa.github.io/eco_planet",
+  "homepage": "https://hwhinowa.github.io/ecosystem",
   "scripts": {
     "start": "cross-env NODE_PATH=src react-scripts start",
     "build": "cross-env NODE_PATH=src react-scripts build",
