@@ -1,0 +1,17 @@
+/*
+* ---------- DataSummary.css ----------
+*/
+@charset "utf-8";
+
+.summaryContainer{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    font-size:1.6rem;
+    text-align: center;
+    line-height:150%;
+    padding: 2rem 6rem;
+    background: rgba(255,255,255, 0.2);
+}

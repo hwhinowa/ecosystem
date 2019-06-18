@@ -1,0 +1,33 @@
+/*
+* ---------- planetDetail.css ----------
+*/
+@charset "utf-8";
+
+body *{
+    font-size:3rem;
+    color:#fff;
+}
+
+.goHome{
+    display:inline-block;
+    line-height:0;
+    padding:1rem 1.5rem 1rem 1.2rem;
+    margin:1rem;
+    border:solid 1px #fff;
+    border-radius:0.3rem;
+}
+.goHome div{
+    display:inline-block;
+    width: 0;
+    height: 0;
+    font-size:1rem;
+    text-indent: -1000rem;
+    border-top: 1.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
+    border-right: 2.5rem solid #fff;
+}
+
+h1{
+    text-align:center;
+    margin-top:-5rem;
+}

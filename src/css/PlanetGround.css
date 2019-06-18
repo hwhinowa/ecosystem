@@ -1,0 +1,122 @@
+/*
+* ---------- PlanetGround.css ----------
+*/
+@charset "utf-8";
+
+.groundContainer{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: calc(80% - 20rem);
+    height: 56rem;
+    transform: translateY(-54%);
+    /* border: solid 1px #fff; */
+}
+.groundContainer svg{
+    position:absolute;
+    z-index:999;
+}
+
+.groundBack{
+    position:absolute;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background:#1c5a7f;
+    border-radius:0.5rem;
+}
+.groundBack div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 100rem;
+}
+.ocean_shallow{
+    width: 30rem;
+    height: 30rem;
+    background: #3f86b2;
+    box-shadow: 0 0 2rem #162336;
+}
+.ocean_middle{
+    width: 55rem;
+    height: 52rem;
+    background: #111a29;
+    box-shadow: 0px 0px 3rem #111a29;
+}
+.ocean_deep{
+    width: 80rem;
+    height: 80rem;
+    background: #030408;
+    box-shadow: 0 0 3rem #030408;
+}
+
+.groundContainer .dataPoints svg{
+    z-index:99999;
+}
+.dataPoints{
+    font-size:2rem;
+    color:#fff;
+    margin:0 auto;
+}
+
+.animal_status_1 .animal_body{
+    fill:#444;
+}
+.animal_status_1 .animal_eye{
+    fill:#ff0b0b;
+}
+.animal_status_1 .animal_pupil{
+    fill:#555;
+}
+.animal_status_2 .animal_body{
+    fill:#333;
+}
+.animal_status_2 .animal_eye{
+    fill:#ff7d00;
+}
+.animal_status_2 .animal_pupil{
+    fill:#444;
+}
+.animal_status_3 .animal_eye{
+    fill:#fffd00;
+}
+.native_status_1 .native_hair{
+    fill:#888;
+}
+.native_status_1 .native_face{
+    fill:#66532e;
+    stroke:#66532e;
+}
+.native_status_1 .native_eye{
+    fill:#3f3426;
+}
+.native_status_2 .native_hair{
+    fill:#856565;
+}
+.native_status_2 .native_face{
+    fill:#c3ad9a;
+    stroke:#c3ad9a;
+}
+.native_status_2 .native_eye{
+    fill:#555;
+}
+.native_status_3 .native_hair{
+    fill:#934c4c;
+}
+.native_status_3 .native_face{
+    fill:#f4d2d2;
+    stroke:#f4d2d2;
+}
+.plant_status_1 .plant_leaf{
+    fill:#d5ccc6;
+}
+.plant_status_1 .plant_trunk{
+    stroke:#5a3f36;
+}
+.plant_status_2 .plant_leaf{
+    fill:#795546;
+}
+.plant_status_3 .plant_leaf{
+    fill:#aac019;
+}

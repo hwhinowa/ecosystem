@@ -1,0 +1,106 @@
+/*
+* ---------- DataView.css ----------
+*/
+@charset "utf-8";
+
+.dataContainer{
+    position:absolute;
+    top:50%;
+    right:0;
+    width:20rem;
+    transform:translateY(-50%);
+}
+button:focus{
+    outline:none;
+}
+
+.dataBack{
+    position:relative;
+    margin:2rem 0;
+}
+.dataBack ul{
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    width:41%;
+}
+.dataBack ul li{
+    margin-bottom:0.3rem;
+}
+.dataBack ul li p{
+    font-size:1rem;
+}
+.dataBack ul li:last-child p{
+    float:left;
+    width:50%;
+}
+.dataBack ul li:last-child div{
+    float: right;
+    width: 50%;
+    height: 9px;
+    margin-top: 1px;
+    background: #333;
+}
+.dataBack > div{
+    position:relative;
+    margin-top:-1rem;
+}
+.dataBack > div button{
+    display:block;
+    position:absolute;
+    top:0.5rem;
+    width:50%;
+    font-size:1rem;
+    border:none;
+    background:transparent;
+    cursor:pointer;
+}
+/* .view_btn_area:hover{
+    fill:#333;
+} */
+.btn_reproduce{
+    left:0.5rem;
+}
+.btn_die{
+    right:0;
+}
+
+.health span,
+.poison span{
+    display:block;
+    width:50%;
+    height:100%;
+    background:orange;
+}
+.health.data_status_1 span{
+    width:25%;
+    background:red;
+}
+.health.data_status_2 span{
+    width:50%;
+    background:orange;
+}
+.health.data_status_3 span{
+    width:75%;
+    background:yellowgreen;
+}
+.health.data_status_4 span{
+    width:100%;
+    background:green;
+}
+.poison.data_status_1 span{
+    width:25%;
+    background:green;
+}
+.poison.data_status_2 span{
+    width:50%;
+    background:yellowgreen;
+}
+.poison.data_status_3 span{
+    width:75%;
+    background:orange;
+}
+.poison.data_status_4 span{
+    width:100%;
+    background:red;
+}
